@@ -21,7 +21,7 @@ $(document).ready(function(){
 			$('#ticker-body').html(newHTML);
 			$(function () {
     			$('.footable').footable(); 
-	});
+				});
 			addSpecialClasses();
 		});
 		event.preventDefault();
